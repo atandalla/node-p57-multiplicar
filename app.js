@@ -3,8 +3,6 @@ const argv = require('./config/yargs').argv;
 //Destruccturacion
 const { crearArchivo, listarArchivo } = require('./multiplicar/multiplicar'); //(./) busque al mismo nivel
 
-
-
 let comando = argv._[0]; ///(_)el guion bajo es la intruccion
 
 switch (comando) {
